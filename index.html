@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link src="style.css">
+</head>
+<body>
+    <div class="container">
+    <form class="fm">
+        <label for="name">Name*</label><br>
+        <input type="text" name="name" id="name"><p>first name</p>
+        <input type="text" name="name" id="lname"><p>last name</p>
+        <lable for="email">Email*</lable>
+        <input type="email" name="email" id="email"><br><br>
+        <h2>Your Experience*</h2>
+        <span class="fa fa-star ">&star;</span>
+        <span class="fa fa-star">&star;</span>
+        <span class="fa fa-star">&star;</span>
+        <span class="fa fa-star">&star;</span>
+        <span class="fa fa-star">&star;</span><br><br>
+        <p>Overall,How would you rate your experience with us?</p>
+        <h2>How satisfied are you with*</h2>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th scope="col"></th>
+                    <th scope="col">very unsatisfied</th>
+                    <th scope="col">unsatisfied</th>
+                    <th scope="col">neutral</th>
+                    <th scope="col">satisfied</th>                   
+                    <th scope="col">very satisfied</th>
+                </tr>
+            </thead>
+                <tbody>
+                <tr>
+                    <th scope="sol">purchase</th>
+                    <th scope="sol"><input type="radio"></th>
+                    <th scope="sol"><input type="radio"></th>
+                    <th scope="sol"><input type="radio"></th>
+                    <th scope="sol"><input type="radio"></th>
+                    <th scope="sol"><input type="radio"></th>
+                </tr>
+                <tr>
+                    <th scope="sol">service</th>
+                    <th scope="sol"><input type="radio"></th>
+                    <th scope="sol"><input type="radio"></th>
+                    <th scope="sol"><input type="radio"></th>
+                    <th scope="sol"><input type="radio"></th>
+                    <th scope="sol"><input type="radio"></th>
+                </tr>
+                <tr>
+                    <th scope="sol">company overall</th>
+                    <th scope="sol"><input type="radio"></th>
+                    <th scope="sol"><input type="radio"></th>
+                    <th scope="sol"><input type="radio"></th>
+                    <th scope="sol"><input type="radio"></th>
+                    <th scope="sol"><input type="radio"></th>
+                </tr>
+            </tbody>
+        </table>
+            <h3>How likely are you to*</h3>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col">very unlikely</th>
+                        <th scope="col">unlikely</th>
+                        <th scope="col">neutral</th>
+                        <th scope="col">likely</th>                   
+                        <th scope="col">very likely</th>
+                    </tr>
+                </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="sol">Buy from us again</th>
+                        <th scope="sol"><input type="radio"></th>
+                        <th scope="sol"><input type="radio"></th>
+                        <th scope="sol"><input type="radio"></th>
+                        <th scope="sol"><input type="radio"></th>
+                        <th scope="sol"><input type="radio"></th>
+                    </tr>
+                    <tr>
+                        <th scope="sol">Recommend our product to others</th>
+                        <th scope="sol"><input type="radio"></th>
+                        <th scope="sol"><input type="radio"></th>
+                        <th scope="sol"><input type="radio"></th>
+                        <th scope="sol"><input type="radio"></th>
+                        <th scope="sol"><input type="radio"></th>
+                    </tr>
+                    <tr>
+                        <th scope="sol">Recommend our company to others </th>
+                        <th scope="sol"><input type="radio"></th>
+                        <th scope="sol"><input type="radio"></th>
+                        <th scope="sol"><input type="radio"></th>
+                        <th scope="sol"><input type="radio"></th>
+                        <th scope="sol"><input type="radio"></th>
+                    </tr>
+                </tbody>
+             </table>
+             <h5>Additional comments or suggestions</h5>
+             <textarea id="textarea" name="comments" rows="5" cols="150"></textarea>
+             <br>
+             <button type="submit">Submit</button>
+             </form>
+    </div>  
+</body>
+</html>
